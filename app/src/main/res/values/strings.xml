@@ -8,6 +8,7 @@
     <string name="code">code</string>
     <string name="begin">BEGIN</string>
     <string name="player_names">Player Names</string>
-    <string name="player_names">Player Names</string>
-    <string name="code">code</string>
+
+    <string name="host">Host</string>
+    <string name="join">Join</string>
 </resources>

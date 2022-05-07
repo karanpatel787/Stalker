@@ -27,7 +27,7 @@
         android:id="@+id/host"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Host"
+        android:text="@string/host"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.325"
@@ -39,8 +39,7 @@
         android:id="@+id/joinoin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Join"
-
+        android:text="@string/join"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.678"
@@ -53,27 +52,31 @@
         android:id="@+id/codeInput"
         android:layout_width="151dp"
         android:layout_height="45dp"
-        android:text="@string/code"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameInput"
-        app:layout_constraintVertical_bias="0.042" />
+        app:layout_constraintVertical_bias="0.042"
+        android:autofillHints="Code"
+        android:inputType="number"
+        tools:ignore="LabelFor" />
 
     <EditText
         android:id="@+id/nameInput"
         android:layout_width="202dp"
         android:layout_height="36dp"
-        android:text="@string/Name"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gameName"
-        app:layout_constraintVertical_bias="0.032" />
+        app:layout_constraintVertical_bias="0.032"
+        android:autofillHints="Name"
+        android:inputType="text"
+        tools:ignore="LabelFor" />
 
     <Button
         android:id="@+id/login"
