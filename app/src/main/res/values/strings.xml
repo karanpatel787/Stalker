@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Stalker</string>
+    <string name="SocialMedia">Youtube</string>
+    <string name="Settings">Settings</string>
+    <string name="stalker">STALKER</string>
+    <string name="Name">Name</string>
+    <string name="players">Players</string>
+    <string name="code">code</string>
+    <string name="begin">BEGIN</string>
+    <string name="player_names">Player Names</string>
+    <string name="player_names">Player Names</string>
+    <string name="code">code</string>
+</resources>
